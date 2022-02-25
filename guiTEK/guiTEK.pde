@@ -84,10 +84,10 @@ void setup() {
   m2 = new Meter(this, width - mx - m.getMeterWidth(), my);
   m2.setTitleFontName("Arial bold");
   m2.setTitle("Napon skala [-9, 9]");
-  //String[] scaleLabels = { "-10", "-9", "-8", "-7", "-6", "-5", "-4", "-3", "-2", "-1",
-  //  "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
-  String[] scaleLabels = { "-9", "-8", "-7", "-6", "-5", "-4", "-3", "-2", "-1",
-    "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
+  String[] scaleLabels = { "-10", "-9", "-8", "-7", "-6", "-5", "-4", "-3", "-2", "-1",
+    "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
+  //String[] scaleLabels = { "-9", "-8", "-7", "-6", "-5", "-4", "-3", "-2", "-1",
+  //  "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
   m2.setScaleLabels(scaleLabels);
   m2.setScaleFontColor(color(200, 30, 70));
   m2.setDisplayDigitalMeterValue(true);
